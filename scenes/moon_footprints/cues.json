@@ -1,0 +1,7 @@
+[
+  {"type": "chime", "word": "1969", "note": 86},
+  {"type": "wind", "word": "wind", "t1": 7.5, "gain": 0.6},
+  {"type": "ticks", "word": "millions", "end_word": "years", "n": 14},
+  {"type": "whoosh", "word": "rock"},
+  {"type": "boom", "word": "spot", "gain": 0.8}
+]

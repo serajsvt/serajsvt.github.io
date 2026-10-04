@@ -1,0 +1,55 @@
+# NASA public-domain images on github.com/nasa/NASA-3D-Resources — fetch with:
+#   bash tools/nasa.sh get scenes/<slug> "<path>" <name>.jpg
+# PHOTO = real photograph → P.photo()   MAP = equirectangular map → P.planet() sphere   AVOID = unusable
+# Credit on screen and in the description: "Images: NASA". All checked visually on 2026-10-04.
+
+PHOTO  Space Shuttle Discovery flight deck switch panels               1268x1012  | Images and Textures/Discovery Flight Deck Panels/Discovery Flight Deck Panels s103e0163.jpg
+PHOTO  Discovery flight deck switch panels                             1268x1012  | Images and Textures/Discovery Flight Deck Panels/Discovery Flight Deck Panels s103e0169.jpg
+PHOTO  Discovery flight deck switch panels                             1268x1012  | Images and Textures/Discovery Flight Deck Panels/Discovery Flight Deck Panels s103e0172.jpg
+MAP    Earth relief map (colored elevation) — prefer P.globe for Earth 1440x720   | Images and Textures/Earth (A)/Earth (A).jpg
+PHOTO  Whole Earth from space, black background (Africa, Antarctica)   4095x4095  | Images and Textures/Earth (B)/Earth (B).jpg
+AVOID  star map, almost black                                          2880x1440  | Images and Textures/Hipparcos Star Map/Hipparcos Star Map.jpg
+PHOTO  ISS control panel                                               1268x1012  | Images and Textures/ISS Panels/ISS Panels IMG-038.jpg
+PHOTO  ISS panel with speaker grille                                   1268x1012  | Images and Textures/ISS Panels/ISS Panels JSC2001E10777.jpg
+MAP    Callisto (gaps shown white)                                     1440x720   | Images and Textures/Jupiter - Callisto/Jupiter - Callisto.jpg
+MAP    Europa (gaps shown white)                                       1440x720   | Images and Textures/Jupiter - Europa/Jupiter - Europa.jpg
+MAP    Ganymede                                                        1440x720   | Images and Textures/Jupiter - Ganymede/Jupiter - Ganymede.jpg
+MAP    Io (yellow, volcanic)                                           1440x720   | Images and Textures/Jupiter - Io (A)/Jupiter - Io (A).jpg
+MAP    Io, strong colors                                               1440x720   | Images and Textures/Jupiter - Io (B)/Jupiter - Io (B).jpg
+MAP    Jupiter (low res 720x360: keep sphere radius ≤ 350 px)          720x360   | Images and Textures/Jupiter/Jupiter.jpg
+AVOID  red/cyan 3D anaglyph                                            4278x1143  | Images and Textures/Mars - Cambridge Bay/Mars - Cambridge Bay.jpg
+MAP    Deimos (Mars moon)                                              1440x720   | Images and Textures/Mars - Deimos/Mars - Deimos.jpg
+MAP    Phobos (Mars moon)                                              1440x720   | Images and Textures/Mars - Phobos/Mars - Phobos.jpg
+MAP    Mars                                                            1440x720   | Images and Textures/Mars/Mars.jpg
+PHOTO  Apollo 11 astronaut bootprint on the Moon                       1840x1850  | Images and Textures/Moon - Apollo Astronaut Bootprint/Moon - Apollo Astronaut Bootprint.jpg
+PHOTO  Moon crater from orbit (Apollo)                                 3000x3000  | Images and Textures/Moon - Apollo Crater/Moon - Apollo Crater.jpg
+PHOTO  bright halo craters, dark                                       3000x3000  | Images and Textures/Moon - Bright Halo Craters/Moon - Bright Halo Craters.jpg
+PHOTO  Bruce crater and terrain from orbit                             4078x4078  | Images and Textures/Moon - Bruce Crater/Moon - Bruce Crater.jpg
+PHOTO  far-side crater near the limb                                   3000x3000  | Images and Textures/Moon - Far Side Crater/Moon - Far Side Crater.jpg
+PHOTO  Hypatia Rille, flat plain                                       4060x4060  | Images and Textures/Moon - Hypatia Rille/Moon - Hypatia Rille.jpg
+PHOTO  lunar surface, oblique, colored                                 3000x3000  | Images and Textures/Moon - Lunar Color/Moon - Lunar Color.jpg
+PHOTO  big crater with deep shadow                                     3000x3000  | Images and Textures/Moon - Lunar Crater/Moon - Lunar Crater.jpg
+PHOTO  lunar far side, shadowed craters                                3000x3000  | Images and Textures/Moon - Lunar Far Side/Moon - Lunar Far Side.jpg
+PHOTO  lunar terrain, oblique view to horizon                          4096x4096  | Images and Textures/Moon - Lunar Terrain/Moon - Lunar Terrain.jpg
+PHOTO  Moon southern sea, rayed craters                                3000x3000  | Images and Textures/Moon - Southern Sea/Moon - Southern Sea.jpg
+PHOTO  full Moon, black background                                     1913x1911  | Images and Textures/Moon/Moon.jpg
+AVOID  Triton partial                                                  1440x720   | Images and Textures/Neptune - Triton/Neptune - Triton.jpg
+MAP    Neptune (low res)                                               720x360   | Images and Textures/Neptune/Neptune.jpg
+MAP    Charon (Pluto moon, low res)                                    720x360   | Images and Textures/Pluto - Charon/Pluto - Charon.jpg
+MAP    Pluto (low res)                                                 720x360   | Images and Textures/Pluto/Pluto.jpg
+MAP    Dione (white gaps)                                              1440x720   | Images and Textures/Saturn - Dione/Saturn - Dione.jpg
+MAP    Enceladus (icy, white gaps)                                     1440x720   | Images and Textures/Saturn - Enceladus/Saturn - Enceladus.jpg
+MAP    Iapetus (two-tone dark/bright)                                  1440x720   | Images and Textures/Saturn - Iapetus/Saturn - Iapetus.jpg
+MAP    Mimas (white gaps)                                              1440x720   | Images and Textures/Saturn - Mimas/Saturn - Mimas.jpg
+MAP    Rhea                                                            1440x720   | Images and Textures/Saturn - Rhea/Saturn - Rhea.jpg
+MAP    Tethys (white gaps)                                             1440x720   | Images and Textures/Saturn - Tethys/Saturn - Tethys.jpg
+MAP    Titan (orange haze, low res)                                    720x360   | Images and Textures/Saturn - Titan/Saturn - Titan.jpg
+MAP    Saturn (low res, no rings — draw rings yourself)                720x360   | Images and Textures/Saturn/Saturn.jpg
+AVOID  star map, almost black                                          2880x1440  | Images and Textures/Tycho Star Map/Tycho Star Map.jpg
+AVOID  Ariel partial                                                   1440x720   | Images and Textures/Uranus - Ariel/Uranus - Ariel.jpg
+AVOID  Miranda partial                                                 1440x720   | Images and Textures/Uranus - Miranda/Uranus - Miranda.jpg
+AVOID  Oberon partial                                                  1440x720   | Images and Textures/Uranus - Oberon/Uranus - Oberon.jpg
+AVOID  Titania partial                                                 1440x720   | Images and Textures/Uranus - Titania/Uranus - Titania.jpg
+AVOID  Umbriel partial                                                 1440x720   | Images and Textures/Uranus - Umbriel/Uranus - Umbriel.jpg
+MAP    Venus surface (radar)                                           1440x720   | Images and Textures/Venus/Venus.jpg
+AVOID  star map, almost black                                          2880x1440  | Images and Textures/Yale Bright Star Map/Yale Bright Star Map.jpg

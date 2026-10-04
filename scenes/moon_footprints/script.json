@@ -1,0 +1,49 @@
+{
+  "topic": "Apollo footprints could last millions of years (real NASA photos)",
+  "sources": [
+    "https://www.space.com/35352-eugene-cernan-moon-legacy-footprints.html"
+  ],
+  "images": [
+    "NASA / Apollo 11 bootprint",
+    "NASA full Moon",
+    "NASA lunar terrain",
+    "NASA lunar crater",
+    "NASA Earth from space"
+  ],
+  "speaker": 23,
+  "lines": [
+    {
+      "text": "This footprint has been on the Moon since 1969.",
+      "ls": 1.0
+    },
+    {
+      "text": "Up there, there is no wind and no rain,",
+      "ls": 0.97,
+      "gap": 0.2
+    },
+    {
+      "text": "so nothing can wash it away.",
+      "ls": 0.97
+    },
+    {
+      "text": "Scientists think it could last for millions of years.",
+      "ls": 0.97
+    },
+    {
+      "text": "Its biggest threat? A space rock hitting that exact spot.",
+      "ls": 0.97
+    },
+    {
+      "text": "Would you leave your footprint on the Moon?",
+      "ls": 1.0
+    }
+  ],
+  "moods": [
+    "wonder",
+    "calm",
+    "calm",
+    "wonder",
+    "tense",
+    "question"
+  ]
+}

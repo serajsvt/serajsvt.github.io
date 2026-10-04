@@ -1,37 +1,41 @@
-# Topic bank — What-If Shorts for a US audience
+# Topic bank — real-fact Shorts for a US audience (v2)
 
-Pick unused topics (check topics_log.json). Each idea lists the visual hook and the facts to VERIFY before use.
-US units only. Add new ideas at the bottom in the same format.
+Rules: real, verifiable facts; real NASA images (see tools/nasa_catalog.txt); US units; compare to American things
+(states, cities, highways, the Empire State Building, mph, °F). VERIFY every number with web search before use and put
+the source URLs in script.json. Never reuse a topic already in topics_log.json. Add new ideas at the bottom.
 
-## Earth & America
-1. **What if Yellowstone's supervolcano erupted?** — giant ash plume over the Rockies (P.smoke + terrain), ash snow over cities.
-   Verify (USGS): last super-eruption ~631,000 years ago; how far ash could fall; yearly odds (USGS ~1 in 730,000).
-2. **What if all the ice on Earth melted?** — NYC skyline swallowed by water (P.nyc + P.water rising), globe turning blue.
-   Verify: sea level rise ~230 ft (~70 m); Florida mostly underwater; how long it would take.
-3. **What if Mount Everest stood in New York City?** — giant mountain behind the skyline (P.terrain huge, snow cap).
-   Verify: Everest 29,032 ft; Empire State 1,454 ft to the tip; ratio; jet cruising altitude ~35,000 ft.
-4. **What if Niagara Falls stopped flowing?** — the falls dry up. Verify: the American Falls were dewatered in 1969 (true event);
-   flow ~ 3,160 tons of water per second / ~750,000 gallons per second.
-5. **What if a storm like the 1859 Carrington Event hit today?** — auroras over US cities (custom aurora curtains), lights going dark.
-   Verify (NASA/NOAA): auroras seen as far south as the Caribbean in 1859; telegraph systems sparked; modern grid risk.
-6. **What if the Great Lakes drained?** — Verify: hold ~21% of the world's surface fresh water; ~6 quadrillion gallons.
-7. **What if you dug a tunnel straight through the Earth?** — globe cross-section, falling capsule.
-   Verify: the "gravity train" trip takes ~42 minutes; core ~10,000 °F (≈ surface of the Sun).
-8. **What if Earth stopped spinning?** — globe; winds and oceans keep moving east. Verify: equator speed ~1,000 mph; 1 day = 1 year.
-9. **What if Earth spun twice as fast?** — 12-hour days, stronger storms. Verify: day length, equator speed ~2,000 mph.
-10. **What if a 6-mile-wide asteroid hit the Atlantic?** — impact flash, tsunami toward NYC.
-    Verify: Chicxulub ~6 miles wide (~10 km), 66 million years ago; tsunami heights estimated in studies (hedge!).
+## Real facts (preferred) — images available
+1. **Footprints on the Moon could last millions of years** — READY: scenes/moon_footprints (re-verify, then render & publish).
+   Images: bootprint, full Moon, lunar terrain, crater, Earth. Source: space.com (Apollo footprints).
+2. **The Moon is drifting away from Earth** — about 1.5 inches (3.8 cm) per year. Images: full Moon, Earth photo.
+3. **We never see the far side of the Moon** — tidal locking; "dark side" is a myth. Images: far-side crater, lunar far side, full Moon.
+4. **Earth is flying around the Sun at about 67,000 mph** — Image: Earth photo, P.globe.
+5. **Olympus Mons on Mars** — ~2.5× Everest's height, about the size of Arizona. Image: Mars map (P.planet).
+6. **Valles Marineris** — a canyon on Mars as long as the US is wide (~2,500 miles). Image: Mars map.
+7. **Phobos is falling toward Mars** — may break apart / crash in ~50 million years. Images: Phobos map, Mars map.
+8. **Io, the most volcanic world in the solar system** — ~400 active volcanoes. Images: Io maps.
+9. **Europa may hold twice as much water as Earth's oceans** — Image: Europa map.
+10. **Ganymede is bigger than the planet Mercury** — Image: Ganymede map.
+11. **Callisto, one of the most heavily cratered worlds** — Image: Callisto map.
+12. **Enceladus shoots water geysers into space** (Cassini) — Image: Enceladus map.
+13. **Titan has lakes and rain of liquid methane** — Image: Titan map.
+14. **Saturn would float in water** (less dense than water) and its rings are mostly only tens of feet thick — Image: Saturn map + drawn rings.
+15. **Iapetus, the two-faced moon** — one side dark as coal, one bright as snow. Image: Iapetus map.
+16. **A day on Venus is longer than its year; the surface is ~900 °F** — Image: Venus map.
+17. **Pluto's giant "heart"** — a nitrogen-ice plain about the size of Texas + Oklahoma (check). Image: Pluto map.
+18. **Jupiter's Great Red Spot is wider than Earth** — Image: Jupiter map (small sphere).
+19. **Why the Moon is covered in craters** — no air to burn up space rocks, no weather to erase them. Images: crater photos.
+20. **The Space Shuttle Discovery's cockpit had more than 1,000 switches** (check exact number) — Images: Discovery panels;
+    Discovery is now at the Smithsonian's Udvar-Hazy Center in Virginia.
+21. **Inside the International Space Station** — how fast it orbits (~17,500 mph, 16 sunrises a day). Images: ISS panels, Earth.
+22. **How big Earth looks from the Moon** — ~4× wider than the full Moon looks from Earth. Images: Earth photo, lunar terrain.
 
-## Space
-11. **What if the Sun disappeared?** — sky goes dark 8 minutes late, frost on the city.
-    Verify: light takes ~8 min 20 s; Earth flies off in a straight line; temperatures drop below 0 °F in about a week (hedge).
-12. **What if the Moon disappeared?** — tides shrink, nights darker. Verify: ocean tides would drop to the Sun's share (~1/3 of today's? check), tilt wobble over time.
-13. **What if Earth had rings like Saturn?** — rings arching over NYC (custom ellipse bands), ring shadow in winter.
-14. **What if Jupiter were as close as the Moon?** — Verify: Jupiter's diameter ~11x Earth's; how big it would look (angular size math).
-15. **What if you could drive to the Moon?** — highway into the sky. Verify: ~238,900 miles; at 65 mph ≈ 153 days nonstop.
-16. **What if a black hole the size of a coin appeared?** — Verify mass/size relation (Schwarzschild radius) before using.
-17. **What if Earth had two moons?** — two moons over NYC (P.moon twice), double tides (hedge).
-18. **What if the Sun were replaced by a red dwarf?** — red sky, cold. Verify typical luminosity (<5% of the Sun).
+## "What if" (max 1 in 3 videos, real science + real images)
+23. What if the Moon disappeared? (tides ~1/3 as strong — check) — images: full Moon, Earth.
+24. What if you stood on Olympus Mons? — Mars map, scale comparisons.
+25. What if Earth stopped spinning? (~1,000 mph at the equator) — P.globe.
+26. What if Earth had rings like Saturn? — P.globe + drawn rings, Saturn map.
+27. What if you could drive to the Moon? (~238,900 miles; at 65 mph ≈ 153 days nonstop) — full Moon, Earth.
 
 ## Already published
 - What if the Moon was 10x closer? (2026-10-04)

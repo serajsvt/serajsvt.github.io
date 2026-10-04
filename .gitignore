@@ -7,3 +7,4 @@ scenes/*/*.mp4
 scenes/*/data.js
 scenes/*/timings.json
 __pycache__/
+scenes/*/img/
