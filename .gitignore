@@ -1,0 +1,9 @@
+out/
+scenes/*/vo/
+scenes/*/stills/
+scenes/*/check/
+scenes/*/*.wav
+scenes/*/*.mp4
+scenes/*/data.js
+scenes/*/timings.json
+__pycache__/

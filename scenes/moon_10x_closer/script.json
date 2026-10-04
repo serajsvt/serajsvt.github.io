@@ -1,0 +1,13 @@
+{
+  "topic": "What if the Moon was 10x closer?",
+  "speaker": 23,
+  "lines": [
+    {"text": "What if the Moon was ten times closer?", "ls": 1.05},
+    {"text": "Over New York, it would look ten times wider,", "ls": 0.95, "gap": 0.2},
+    {"text": "and full moon nights would be a hundred times brighter.", "ls": 0.95},
+    {"text": "But its pull on our oceans would be a thousand times stronger.", "ls": 0.97},
+    {"text": "Massive tides would rush in, flooding the coast and the city streets.", "ls": 0.97},
+    {"text": "Would you live under this Moon?", "ls": 1.0}
+  ],
+  "moods": ["wonder", "wonder", "wonder", "tense", "epic", "question"]
+}

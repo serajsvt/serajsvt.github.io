@@ -1,0 +1,14 @@
+[
+  {"type": "chime", "word": "nights", "note": 88},
+  {"type": "chime", "word": "brighter", "note": 93},
+  {"type": "ticks", "word": "ten", "after": 2, "end_word": "wider", "n": 9},
+  {"type": "ticks", "word": "hundred", "end_word": "brighter", "n": 16},
+  {"type": "ticks", "word": "thousand", "end_word": "stronger", "n": 22},
+  {"type": "rumble", "word": "pull", "end_word": "streets"},
+  {"type": "riser", "word": "thousand", "end_word": "stronger"},
+  {"type": "boom", "word": "massive"},
+  {"type": "ocean", "word": "massive"},
+  {"type": "splash", "word": "rush"},
+  {"type": "splash", "word": "flooding"},
+  {"type": "splash", "word": "city"}
+]

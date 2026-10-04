@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What-If player</title>
+<link rel="icon" href="data:,">
+<style>
+@font-face{font-family:Geist;src:url(/assets/Geist.woff2) format("woff2");font-weight:100 900}
+html,body{margin:0;background:#05070c}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden}
+canvas{position:absolute;left:0;top:0}
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<script>
+  // usage: /player.html?scene=<slug>  — loads timings, engine, primitives, then the scene, in order
+  const slug = new URLSearchParams(location.search).get('scene');
+  for (const src of [`/scenes/${slug}/data.js`, '/lib/engine.js', '/lib/primitives.js', `/scenes/${slug}/scene.js`])
+    document.write(`<script src="${src}"><\/script>`);
+</script>
+</body>
+</html>
